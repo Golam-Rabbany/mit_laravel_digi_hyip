@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    outline: none;
+    padding: 0;
+    font-family:"Open Sans", sans-serif;
+}
+.full-body{
+    background-color: #00001c;
+}
+.header-top{
+    border-bottom: 1px solid rgb(72, 60, 95);
+}
+
+.header-first li{
+    font-size: 18px;
+    margin-right: 25px;
+    font-weight: bold;
+    color: white;
+    margin-top: 1rem;
+    font-family:"Open Sans", sans-serif;
+}
+
+.contacts{
+    list-style: none;
+}
+.profile img{
+    margin: 0rem 2rem;
+}
+.nice-select{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family:"Open Sans", sans-serif;
+}
+@media (max-width: 767px) { 
+    .header-top{
+        display:none;
+    }
+}
+@media (max-width: 767px) { 
+    .banner-title{
+        text-align: center;
+    }
+}
+@media (max-width: 667px) { 
+    .banner .banner-title h1{
+        font-size: 2.5rem;
+        max-width: 200px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* 2nd */
+.second-header{
+    background-color: rgb(20, 2, 61);
+}
+.collapse ul li a{
+    color: #fff;
+}
+.navbar{
+    margin: 1rem 0;
+}
+.navbar-nav li a{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.navbar-nav li a:hover{
+    color: orange;
+}
+.navbar .navbar-collapse{
+    text-transform: uppercase;
+}
+
+
+  
+
+
+.nav-btn .button:hover{
+    color: #fff;
+    background: #0b0122;
+}
+.nav-btn .button{
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    background: orange;
+    margin-right: 20px;
+}
+
+
+
+  .sign-in h1{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem;
+  }
+
+  @media(max-width: 720px){
+    .main-form .main-form-img img{
+        display: none;
+    }
+  }
+ 
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+.login-form{background-color: #402a71;}
+
+/* .main-form h2{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+} */
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  background-color: #402a71;
+  box-sizing: border-box;
+}
+label{
+    color: white;
+}
+
+.form-body button,.cancelbtn{
+  background-color: orange;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+.form-body button:hover {
+  opacity: 0.8;
+}
+input .checked{
+    float: right;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+.footer{
+    margin-top: 8rem;
+}
+.footer h3{
+    font-size: 1.8rem;
+    color: rgb(218, 218, 218);
+    margin-bottom: 2.6rem;
+}
+.footer p{
+    color: rgb(170, 169, 169);
+    margin-bottom: 1.7rem;
+}
+.footer ul li{
+    color: rgb(170, 169, 169);
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.footer ul li:hover{
+    color: orange;
+}
+.footer .footer-ul li{
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+.footer .footer-ul li a{
+    text-decoration: none;
+}
+.footer .footer-ul li i{
+    color: #fff;
+    background-color: blueviolet;
+    font-size: 1.4rem;
+    padding: 0.7rem;
+    border-radius: 50%;
+}
+.footer .footer-ul li i:hover{
+    background-color: #0b0122;
+    color: blueviolet;
+}
+
+
+
+.last-footer{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid #555;
+}
+.last-footer p{
+    margin-top: 2rem;
+    text-align: center;
+}

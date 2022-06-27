@@ -1,0 +1,48 @@
+.company_title{
+    margin: 4rem 0rem;
+
+}
+.company_title h1{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem;
+  }
+@media(max-width: 600px){
+    .company_title h1{
+        font-size: 28px;
+    }
+}
+
+
+  .invesment-main{
+      margin-bottom: 8rem;
+  }
+  .card{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .card i{
+    margin-top: 20px;
+    font-size: 3rem;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 50%;
+    color: #190153;
+}
+.invesment .card {
+    background-color: #190153;
+}
+
+
+
+.contact__form__wrapper {
+    max-width: 500px;
+    width: 100%;
+    padding: 60px 40px;
+    border-radius: 15px;
+    background: #1A1A33;
+    z-index: 11;
+    position: relative;
+}
